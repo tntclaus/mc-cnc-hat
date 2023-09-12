@@ -1,0 +1,11 @@
+## kicad ignore
+build
+python
+.idea
+*-backups
+fp-info-cache
+_autosave*.kicad_sch
+\#auto_saved_files\#
+plot
+out
+.DS_Store
