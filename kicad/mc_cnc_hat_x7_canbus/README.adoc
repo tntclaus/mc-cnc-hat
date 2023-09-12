@@ -22,4 +22,65 @@
 
 == Использование с Klipper
 
-Для максимальной производительности надо использовать форк клиппера https://github.com/tntclaus/klipper
+См. инструкцию xref:../../docs/klipper.adoc[]
+
+
+== Пины
+
+.Моторы
+|===
+|Назначение |Motor X |Motor X1 |Motor Y |Motor Z |Motor A |Motor B |Motor C
+
+|STEP
+|GPIO3
+|GPIO6
+|GPIO27
+|GPIO19
+|GPIO23
+|GPIO1
+|GPIO20
+
+|DIR
+|GPIO2
+|GPIO15
+|GPIO17
+|GPIO13
+|GPIO24
+|GPIO12
+|GPIO21
+
+|UART
+|GPIO5
+|GPIO5
+|GPIO5
+|GPIO5
+|GPIO25
+|GPIO25
+|GPIO25
+
+|DIAG/Endstop
+|GPIO4
+|N/A
+|GPIO0
+|GPIO26
+|GPIO18
+|GPIO7
+|GPIO16
+|===
+
+.CAN bus
+|===
+|Назначение |GPIO
+|CS
+|GPIO8
+
+|MOSI
+|GPIO10
+
+|MISO
+|GPIO9
+
+|SCK
+|GPIO11
+|===
+
