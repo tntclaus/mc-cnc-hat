@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "ffffff7_ffffffff",
+    "visible_layers": "ffdffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "mc_cnc_hat_x7_canbus.kicad_prl",
+    "filename": "mc_cnc_hat_x8.kicad_prl",
     "version": 3
   },
   "project": {
